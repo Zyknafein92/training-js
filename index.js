@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const userRoute = require('controller/userController');
+const userRoute = require('./controller/userController');
 
 /* Config */
 app.use(express.json());

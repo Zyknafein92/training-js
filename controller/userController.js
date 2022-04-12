@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const service = require('services/userServices');
+const service = require('../services/userServices');
 
 router.get('/',(req,res) => { res.send('Hello world')});
 
